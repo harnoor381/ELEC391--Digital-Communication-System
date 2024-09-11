@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy
+ date="2024.06.20.20:47:57"
+ outputDirectory="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/">
+ <perimeter>
+  <parameter
+     name="AUTO_GENERATION_ID"
+     type="Integer"
+     defaultValue="0"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_UNIQUE_ID"
+     type="String"
+     defaultValue=""
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_FAMILY"
+     type="String"
+     defaultValue="Cyclone V"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE"
+     type="String"
+     defaultValue="5CSEMA5F31C6"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_SPEEDGRADE"
+     type="String"
+     defaultValue="6"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CLK_CLOCK_RATE"
+     type="Long"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CLK_CLOCK_DOMAIN"
+     type="Integer"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_CLK_RESET_DOMAIN"
+     type="Integer"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <interface name="clk" kind="clock" start="0">
+   <property name="clockRate" value="0" />
+   <property name="externallyDriven" value="false" />
+   <property name="ptfSchematicName" value="" />
+   <port name="clk" direction="input" role="clk" width="1" />
+  </interface>
+  <interface name="in" kind="conduit" start="0">
+   <property name="associatedClock" value="clk" />
+   <property name="associatedReset" value="rst" />
+   <port name="sink_val" direction="input" role="valid" width="1" />
+   <port name="sink_rdy" direction="output" role="ready" width="1" />
+   <port name="ber_clear" direction="input" role="ber_clear" width="1" />
+   <port name="eras_sym" direction="input" role="eras_sym" width="4" />
+   <port name="rr" direction="input" role="rr" width="4" />
+  </interface>
+  <interface name="out" kind="conduit" start="0">
+   <property name="associatedClock" value="clk" />
+   <property name="associatedReset" value="rst" />
+   <port name="source_val" direction="output" role="valid" width="1" />
+   <port name="source_rdy" direction="input" role="ready" width="1" />
+   <port name="numerr" direction="output" role="numerr" width="8" />
+   <port
+       name="normalizations"
+       direction="output"
+       role="normalizations"
+       width="8" />
+   <port name="decbit" direction="output" role="decbit" width="1" />
+  </interface>
+  <interface name="rst" kind="reset" start="0">
+   <property name="associatedClock" value="clk" />
+   <property name="synchronousEdges" value="DEASSERT" />
+   <port name="reset" direction="input" role="reset" width="1" />
+  </interface>
+ </perimeter>
+ <entity
+   path=""
+   parameterizationKey="viterbi:1.0:AUTO_CLK_CLOCK_DOMAIN=-1,AUTO_CLK_CLOCK_RATE=-1,AUTO_CLK_RESET_DOMAIN=-1,AUTO_DEVICE=5CSEMA5F31C6,AUTO_DEVICE_FAMILY=Cyclone V,AUTO_DEVICE_SPEEDGRADE=6,AUTO_GENERATION_ID=1718941675,AUTO_UNIQUE_ID=(altera_viterbi_ii:18.1:BSF=1,BSFDISPLAY=0,FMAX=150.0,ISBER=1,ISOCTAL=Decimal,L=3,LATINCYC=134.0,LATINS=0.8933333333333333,NODESYNC=0,TROUGH=150.0,acs_units=1,ber=used,best_state_finder=unused,bmgwide=7,constraint_length_m_1=2,dec_mode=V,design_env=NATIVE,ga=7,gb=6,gc=5,gd=4,ge=0,gf=0,gg=0,log2_n_max=2,n=4,n_max=4,ncodes=1,node_sync=unused,numerr_size=8,parallel_optimization=Continuous,rr_size=4,sel_code_size=1,selected_device_family=Cyclone V,softbits=1,use_altera_syncram=0,v=32,viterbi_type=Parallel,vlog_wide=6)"
+   instancePathKey="viterbi"
+   kind="viterbi"
+   version="1.0"
+   name="viterbi">
+  <parameter name="AUTO_CLK_CLOCK_RATE" value="-1" />
+  <parameter name="AUTO_GENERATION_ID" value="1718941675" />
+  <parameter name="AUTO_DEVICE" value="5CSEMA5F31C6" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="Cyclone V" />
+  <parameter name="AUTO_CLK_RESET_DOMAIN" value="-1" />
+  <parameter name="AUTO_CLK_CLOCK_DOMAIN" value="-1" />
+  <parameter name="AUTO_UNIQUE_ID" value="" />
+  <parameter name="AUTO_DEVICE_SPEEDGRADE" value="6" />
+  <generatedFiles>
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/viterbi.v"
+       type="VERILOG" />
+  </generatedFiles>
+  <childGeneratedFiles>
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/vi_interface.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/vi_functions.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_dspip_avalon_str_ctrl.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_add_tre.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_ram.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_sel.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_top.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_var_enc.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_hyb_trb_atl.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_par_trb_atl.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_hyb_acs_atl.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_hyb_ber_atl.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_hyb_bmp_atl.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_hyb_met_atl.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_hyb_sur_atl.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_hyb_top_atl.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_par_ber_atl.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_par_bmp_atl.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_par_top_atl.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_hyb_top_atl.ocp"
+       type="OTHER"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_par_top_atl.ocp"
+       type="OTHER"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/viterbi_viterbi_ii_0_ini.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/viterbi_viterbi_ii_0.vhd"
+       type="VHDL"
+       attributes="" />
+  </childGeneratedFiles>
+  <sourceFiles>
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/viterbi.qsys" />
+  </sourceFiles>
+  <childSourceFiles>
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/dsp/altera_vit_ii/top_hw/altera_viterbi_ii_hw.tcl" />
+  </childSourceFiles>
+  <messages>
+   <message level="Debug" culprit="viterbi">queue size: 0 starting:viterbi "viterbi"</message>
+   <message level="Progress" culprit="min"></message>
+   <message level="Progress" culprit="max"></message>
+   <message level="Progress" culprit="current"></message>
+   <message level="Progress" culprit="current"></message>
+   <message level="Debug">Transform: CustomInstructionTransform</message>
+   <message level="Debug">No custom instruction connections, skipping transform </message>
+   <message level="Debug" culprit="merlin_custom_instruction_transform"><![CDATA[After transform: <b>1</b> modules, <b>0</b> connections]]></message>
+   <message level="Debug">Transform: MMTransform</message>
+   <message level="Debug">Transform: InterruptMapperTransform</message>
+   <message level="Debug">Transform: InterruptSyncTransform</message>
+   <message level="Debug">Transform: InterruptFanoutTransform</message>
+   <message level="Debug">Transform: AvalonStreamingTransform</message>
+   <message level="Debug">Transform: ResetAdaptation</message>
+   <message level="Debug" culprit="viterbi"><![CDATA["<b>viterbi</b>" reuses <b>altera_viterbi_ii</b> "<b>submodules/viterbi_viterbi_ii_0</b>"]]></message>
+   <message level="Debug" culprit="viterbi">queue size: 0 starting:altera_viterbi_ii "submodules/viterbi_viterbi_ii_0"</message>
+   <message level="Info" culprit="viterbi_ii_0"><![CDATA["<b>viterbi</b>" instantiated <b>altera_viterbi_ii</b> "<b>viterbi_ii_0</b>"]]></message>
+  </messages>
+ </entity>
+ <entity
+   path="submodules/"
+   parameterizationKey="altera_viterbi_ii:18.1:BSF=1,BSFDISPLAY=0,FMAX=150.0,ISBER=1,ISOCTAL=Decimal,L=3,LATINCYC=134.0,LATINS=0.8933333333333333,NODESYNC=0,TROUGH=150.0,acs_units=1,ber=used,best_state_finder=unused,bmgwide=7,constraint_length_m_1=2,dec_mode=V,design_env=NATIVE,ga=7,gb=6,gc=5,gd=4,ge=0,gf=0,gg=0,log2_n_max=2,n=4,n_max=4,ncodes=1,node_sync=unused,numerr_size=8,parallel_optimization=Continuous,rr_size=4,sel_code_size=1,selected_device_family=Cyclone V,softbits=1,use_altera_syncram=0,v=32,viterbi_type=Parallel,vlog_wide=6"
+   instancePathKey="viterbi:.:viterbi_ii_0"
+   kind="altera_viterbi_ii"
+   version="18.1"
+   name="viterbi_viterbi_ii_0">
+  <parameter name="ISOCTAL" value="Decimal" />
+  <parameter name="LATINS" value="0.8933333333333333" />
+  <parameter name="bmgwide" value="7" />
+  <parameter name="selected_device_family" value="Cyclone V" />
+  <parameter name="L" value="3" />
+  <parameter name="log2_n_max" value="2" />
+  <parameter name="ber" value="used" />
+  <parameter name="BSFDISPLAY" value="0" />
+  <parameter name="constraint_length_m_1" value="2" />
+  <parameter name="BSF" value="1" />
+  <parameter name="best_state_finder" value="unused" />
+  <parameter name="viterbi_type" value="Parallel" />
+  <parameter name="ga" value="7" />
+  <parameter name="gb" value="6" />
+  <parameter name="gc" value="5" />
+  <parameter name="gd" value="4" />
+  <parameter name="ge" value="0" />
+  <parameter name="FMAX" value="150.0" />
+  <parameter name="gf" value="0" />
+  <parameter name="rr_size" value="4" />
+  <parameter name="gg" value="0" />
+  <parameter name="ncodes" value="1" />
+  <parameter name="LATINCYC" value="134.0" />
+  <parameter name="dec_mode" value="V" />
+  <parameter name="softbits" value="1" />
+  <parameter name="n_max" value="4" />
+  <parameter name="ISBER" value="1" />
+  <parameter name="n" value="4" />
+  <parameter name="acs_units" value="1" />
+  <parameter name="design_env" value="NATIVE" />
+  <parameter name="numerr_size" value="8" />
+  <parameter name="sel_code_size" value="1" />
+  <parameter name="parallel_optimization" value="Continuous" />
+  <parameter name="use_altera_syncram" value="0" />
+  <parameter name="v" value="32" />
+  <parameter name="vlog_wide" value="6" />
+  <parameter name="NODESYNC" value="0" />
+  <parameter name="TROUGH" value="150.0" />
+  <parameter name="node_sync" value="unused" />
+  <generatedFiles>
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/vi_interface.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/vi_functions.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_dspip_avalon_str_ctrl.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_add_tre.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_ram.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_sel.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_top.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_var_enc.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_hyb_trb_atl.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_par_trb_atl.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_hyb_acs_atl.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_hyb_ber_atl.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_hyb_bmp_atl.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_hyb_met_atl.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_hyb_sur_atl.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_hyb_top_atl.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_par_ber_atl.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_par_bmp_atl.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_par_top_atl.vhd"
+       type="VHDL"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_hyb_top_atl.ocp"
+       type="OTHER"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/auk_vit_par_top_atl.ocp"
+       type="OTHER"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/src/viterbi_viterbi_ii_0_ini.hex"
+       type="HEX"
+       attributes="" />
+   <file
+       path="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/db/ip/viterbi/submodules/viterbi_viterbi_ii_0.vhd"
+       type="VHDL"
+       attributes="" />
+  </generatedFiles>
+  <childGeneratedFiles/>
+  <sourceFiles>
+   <file
+       path="C:/intelfpga_lite/18.1/ip/altera/dsp/altera_vit_ii/top_hw/altera_viterbi_ii_hw.tcl" />
+  </sourceFiles>
+  <childSourceFiles/>
+  <instantiator instantiator="viterbi" as="viterbi_ii_0" />
+  <messages>
+   <message level="Debug" culprit="viterbi">queue size: 0 starting:altera_viterbi_ii "submodules/viterbi_viterbi_ii_0"</message>
+   <message level="Info" culprit="viterbi_ii_0"><![CDATA["<b>viterbi</b>" instantiated <b>altera_viterbi_ii</b> "<b>viterbi_ii_0</b>"]]></message>
+  </messages>
+ </entity>
+</deploy>

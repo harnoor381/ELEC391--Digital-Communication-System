@@ -1,0 +1,96 @@
+set_global_assignment -entity "viterbi" -library "viterbi" -name IP_TOOL_NAME "Qsys"
+set_global_assignment -entity "viterbi" -library "viterbi" -name IP_TOOL_VERSION "18.1"
+set_global_assignment -entity "viterbi" -library "viterbi" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -library "viterbi" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../../viterbi.sopcinfo"]
+set_global_assignment -entity "viterbi" -library "viterbi" -name SLD_INFO "QSYS_NAME viterbi HAS_SOPCINFO 1 GENERATION_ID 1718941675"
+set_global_assignment -library "viterbi" -name SLD_FILE [file join $::quartus(qip_path) "viterbi.debuginfo"]
+set_global_assignment -entity "viterbi" -library "viterbi" -name IP_TARGETED_DEVICE_FAMILY "Cyclone V"
+set_global_assignment -entity "viterbi" -library "viterbi" -name IP_GENERATED_DEVICE_FAMILY "{Cyclone V}"
+set_global_assignment -entity "viterbi" -library "viterbi" -name IP_QSYS_MODE "STANDALONE"
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "viterbi" -name MISC_FILE [file join $::quartus(qip_path) "../../../viterbi.qsys"]
+set_global_assignment -entity "viterbi" -library "viterbi" -name IP_COMPONENT_NAME "dml0ZXJiaQ=="
+set_global_assignment -entity "viterbi" -library "viterbi" -name IP_COMPONENT_DISPLAY_NAME "dml0ZXJiaQ=="
+set_global_assignment -entity "viterbi" -library "viterbi" -name IP_COMPONENT_REPORT_HIERARCHY "On"
+set_global_assignment -entity "viterbi" -library "viterbi" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "viterbi" -library "viterbi" -name IP_COMPONENT_VERSION "MS4w"
+set_global_assignment -entity "viterbi" -library "viterbi" -name IP_COMPONENT_PARAMETER "QVVUT19HRU5FUkFUSU9OX0lE::MTcxODk0MTY3NQ==::QXV0byBHRU5FUkFUSU9OX0lE"
+set_global_assignment -entity "viterbi" -library "viterbi" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBW::QXV0byBERVZJQ0VfRkFNSUxZ"
+set_global_assignment -entity "viterbi" -library "viterbi" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0U=::NUNTRU1BNUYzMUM2::QXV0byBERVZJQ0U="
+set_global_assignment -entity "viterbi" -library "viterbi" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfU1BFRURHUkFERQ==::Ng==::QXV0byBERVZJQ0VfU1BFRURHUkFERQ=="
+set_global_assignment -entity "viterbi" -library "viterbi" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfUkFURQ==::LTE=::QXV0byBDTE9DS19SQVRF"
+set_global_assignment -entity "viterbi" -library "viterbi" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfQ0xPQ0tfRE9NQUlO::LTE=::QXV0byBDTE9DS19ET01BSU4="
+set_global_assignment -entity "viterbi" -library "viterbi" -name IP_COMPONENT_PARAMETER "QVVUT19DTEtfUkVTRVRfRE9NQUlO::LTE=::QXV0byBSRVNFVF9ET01BSU4="
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_NAME "dml0ZXJiaV92aXRlcmJpX2lpXzA="
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_DISPLAY_NAME "Vml0ZXJiaQ=="
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_AUTHOR "SW50ZWwgQ29ycG9yYXRpb24="
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_VERSION "MTguMQ=="
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_DESCRIPTION "QWx0ZXJhIFZpdGVyYmk="
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "ZGVzaWduX2Vudg==::TkFUSVZF::ZGVzaWduX2Vudg=="
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "dml0ZXJiaV90eXBl::UGFyYWxsZWw=::Vml0ZXJiaSBBcmNoaXRlY3R1cmU="
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "SVNCRVI=::MQ==::QkVS"
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "Tk9ERVNZTkM=::MA==::Tm9kZSBTeW5j"
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "cGFyYWxsZWxfb3B0aW1pemF0aW9u::Q29udGludW91cw==::T3B0aW1pemF0aW9ucw=="
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "QlNGRElTUExBWQ==::MA==::QmVzdCBzdGF0ZSBmaW5kZXI="
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "SVNPQ1RBTA==::RGVjaW1hbA==::UG9seW5vbWlhbCBiYXNl"
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "bg==::NA==::bg=="
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "bmNvZGVz::MQ==::bmNvZGVz"
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "TA==::Mw==::TA=="
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "ZGVjX21vZGU=::Vg==::ZGVjX21vZGU="
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "Z2E=::Nw==::Z2E="
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "Z2I=::Ng==::Z2I="
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "Z2M=::NQ==::Z2M="
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "Z2Q=::NA==::Z2Q="
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "Z2U=::MA==::Z2U="
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "Z2Y=::MA==::Z2Y="
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "Z2c=::MA==::Z2c="
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "dg==::MzI=::VHJhY2ViYWNr"
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "c29mdGJpdHM=::MQ==::TnVtYmVyIG9mIFNvZnQgQml0cw=="
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "Rk1BWA==::MTUwLjA=::RnJlcXVlbmN5"
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "VFJPVUdI::MTUwLjA=::VGhyb3VnaHB1dA=="
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "TEFUSU5DWUM=::MTM0LjA=::TGF0ZW5jeQ=="
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "TEFUSU5T::MC44OTMzMzMzMzMzMzMzMzMz::TGF0ZW5jeQ=="
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "cnJfc2l6ZQ==::NA==::cnJfc2l6ZQ=="
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "bl9tYXg=::NA==::bl9tYXg="
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "bG9nMl9uX21heA==::Mg==::bG9nMl9uX21heA=="
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "Ym1nd2lkZQ==::Nw==::Ym1nd2lkZQ=="
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "bnVtZXJyX3NpemU=::OA==::bnVtZXJyX3NpemU="
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "Y29uc3RyYWludF9sZW5ndGhfbV8x::Mg==::Y29uc3RyYWludF9sZW5ndGhfbV8x"
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "dmxvZ193aWRl::Ng==::dmxvZ193aWRl"
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "c2VsX2NvZGVfc2l6ZQ==::MQ==::c2VsX2NvZGVfc2l6ZQ=="
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "YmVy::dXNlZA==::YmVy"
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "bm9kZV9zeW5j::dW51c2Vk::bm9kZV9zeW5j"
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "YmVzdF9zdGF0ZV9maW5kZXI=::dW51c2Vk::YmVzdF9zdGF0ZV9maW5kZXI="
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "dXNlX2FsdGVyYV9zeW5jcmFt::MA==::dXNlX2FsdGVyYV9zeW5jcmFt"
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_COMPONENT_PARAMETER "c2VsZWN0ZWRfZGV2aWNlX2ZhbWlseQ==::Q3ljbG9uZSBW::c2VsZWN0ZWRfZGV2aWNlX2ZhbWlseQ=="
+
+set_global_assignment -library "viterbi" -name VERILOG_FILE [file join $::quartus(qip_path) "viterbi.v"]
+set_global_assignment -library "viterbi" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/src/vi_interface.vhd"]
+set_global_assignment -library "viterbi" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/src/vi_functions.vhd"]
+set_global_assignment -library "viterbi" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/src/auk_dspip_avalon_str_ctrl.vhd"]
+set_global_assignment -library "viterbi" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/src/auk_vit_add_tre.vhd"]
+set_global_assignment -library "viterbi" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/src/auk_vit_ram.vhd"]
+set_global_assignment -library "viterbi" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/src/auk_vit_sel.vhd"]
+set_global_assignment -library "viterbi" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/src/auk_vit_top.vhd"]
+set_global_assignment -library "viterbi" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/src/auk_vit_var_enc.vhd"]
+set_global_assignment -library "viterbi" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/src/auk_vit_hyb_trb_atl.vhd"]
+set_global_assignment -library "viterbi" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/src/auk_vit_par_trb_atl.vhd"]
+set_global_assignment -library "viterbi" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/src/auk_vit_hyb_acs_atl.vhd"]
+set_global_assignment -library "viterbi" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/src/auk_vit_hyb_ber_atl.vhd"]
+set_global_assignment -library "viterbi" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/src/auk_vit_hyb_bmp_atl.vhd"]
+set_global_assignment -library "viterbi" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/src/auk_vit_hyb_met_atl.vhd"]
+set_global_assignment -library "viterbi" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/src/auk_vit_hyb_sur_atl.vhd"]
+set_global_assignment -library "viterbi" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/src/auk_vit_hyb_top_atl.vhd"]
+set_global_assignment -library "viterbi" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/src/auk_vit_par_ber_atl.vhd"]
+set_global_assignment -library "viterbi" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/src/auk_vit_par_bmp_atl.vhd"]
+set_global_assignment -library "viterbi" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/src/auk_vit_par_top_atl.vhd"]
+set_global_assignment -library "viterbi" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/src/auk_vit_hyb_top_atl.ocp"]
+set_global_assignment -library "viterbi" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/src/auk_vit_par_top_atl.ocp"]
+set_global_assignment -library "viterbi" -name SOURCE_FILE [file join $::quartus(qip_path) "submodules/src/viterbi_viterbi_ii_0_ini.hex"]
+set_global_assignment -library "viterbi" -name VHDL_FILE [file join $::quartus(qip_path) "submodules/viterbi_viterbi_ii_0.vhd"]
+
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_TOOL_NAME "altera_viterbi_ii"
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_TOOL_VERSION "18.1"
+set_global_assignment -entity "viterbi_viterbi_ii_0" -library "viterbi" -name IP_TOOL_ENV "Qsys"
