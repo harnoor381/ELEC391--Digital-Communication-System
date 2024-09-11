@@ -16,5 +16,7 @@ The system includes following modules:
 The system was developed and tested using Simulink and Modelsim, and was prototyped on the Altera DE1-SoC FPGA board. Our design focused on achieving high fidelity and low bit error rate (BER) while operating within the specified bandwidth and processing delay constraints. All our subsystems and the overall design are functioning correctly and completely in both simulink and on the FPGA. We tested with a 48 KHz audio file as well as microphone inputs.
 
 ## Simulink Overview
+![Simulink Model](./Simulink_overview.png)
 
+## FPGA Overview
 
