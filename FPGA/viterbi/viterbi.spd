@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+ <file
+   path="simulation/submodules/src/vi_interface.vhd"
+   type="VHDL"
+   library="viterbi_ii_0" />
+ <file
+   path="simulation/submodules/src/vi_functions.vhd"
+   type="VHDL"
+   library="viterbi_ii_0" />
+ <file
+   path="simulation/submodules/src/auk_dspip_avalon_str_ctrl.vhd"
+   type="VHDL"
+   library="viterbi_ii_0" />
+ <file
+   path="simulation/submodules/src/auk_vit_add_tre.vhd"
+   type="VHDL"
+   library="viterbi_ii_0" />
+ <file
+   path="simulation/submodules/src/auk_vit_ram.vhd"
+   type="VHDL"
+   library="viterbi_ii_0" />
+ <file
+   path="simulation/submodules/src/auk_vit_sel.vhd"
+   type="VHDL"
+   library="viterbi_ii_0" />
+ <file
+   path="simulation/submodules/src/auk_vit_top.vhd"
+   type="VHDL"
+   library="viterbi_ii_0" />
+ <file
+   path="simulation/submodules/src/auk_vit_var_enc.vhd"
+   type="VHDL"
+   library="viterbi_ii_0" />
+ <file
+   path="simulation/submodules/src/mentor/auk_vit_hyb_trb_atl.vhd"
+   type="VHDL_ENCRYPT"
+   library="viterbi_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/src/aldec/auk_vit_hyb_trb_atl.vhd"
+   type="VHDL_ENCRYPT"
+   library="viterbi_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/src/mentor/auk_vit_par_trb_atl.vhd"
+   type="VHDL_ENCRYPT"
+   library="viterbi_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/src/aldec/auk_vit_par_trb_atl.vhd"
+   type="VHDL_ENCRYPT"
+   library="viterbi_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/src/mentor/auk_vit_hyb_acs_atl.vhd"
+   type="VHDL_ENCRYPT"
+   library="viterbi_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/src/aldec/auk_vit_hyb_acs_atl.vhd"
+   type="VHDL_ENCRYPT"
+   library="viterbi_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/src/mentor/auk_vit_hyb_ber_atl.vhd"
+   type="VHDL_ENCRYPT"
+   library="viterbi_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/src/aldec/auk_vit_hyb_ber_atl.vhd"
+   type="VHDL_ENCRYPT"
+   library="viterbi_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/src/mentor/auk_vit_hyb_bmp_atl.vhd"
+   type="VHDL_ENCRYPT"
+   library="viterbi_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/src/aldec/auk_vit_hyb_bmp_atl.vhd"
+   type="VHDL_ENCRYPT"
+   library="viterbi_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/src/mentor/auk_vit_hyb_met_atl.vhd"
+   type="VHDL_ENCRYPT"
+   library="viterbi_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/src/aldec/auk_vit_hyb_met_atl.vhd"
+   type="VHDL_ENCRYPT"
+   library="viterbi_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/src/mentor/auk_vit_hyb_sur_atl.vhd"
+   type="VHDL_ENCRYPT"
+   library="viterbi_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/src/aldec/auk_vit_hyb_sur_atl.vhd"
+   type="VHDL_ENCRYPT"
+   library="viterbi_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/src/mentor/auk_vit_hyb_top_atl.vhd"
+   type="VHDL_ENCRYPT"
+   library="viterbi_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/src/aldec/auk_vit_hyb_top_atl.vhd"
+   type="VHDL_ENCRYPT"
+   library="viterbi_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/src/mentor/auk_vit_par_ber_atl.vhd"
+   type="VHDL_ENCRYPT"
+   library="viterbi_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/src/aldec/auk_vit_par_ber_atl.vhd"
+   type="VHDL_ENCRYPT"
+   library="viterbi_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/src/mentor/auk_vit_par_bmp_atl.vhd"
+   type="VHDL_ENCRYPT"
+   library="viterbi_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/src/aldec/auk_vit_par_bmp_atl.vhd"
+   type="VHDL_ENCRYPT"
+   library="viterbi_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/src/mentor/auk_vit_par_top_atl.vhd"
+   type="VHDL_ENCRYPT"
+   library="viterbi_ii_0"
+   simulator="modelsim" />
+ <file
+   path="simulation/submodules/src/aldec/auk_vit_par_top_atl.vhd"
+   type="VHDL_ENCRYPT"
+   library="viterbi_ii_0"
+   simulator="riviera" />
+ <file
+   path="simulation/submodules/src/auk_vit_hyb_top_atl.ocp"
+   type="OTHER"
+   library="viterbi_ii_0" />
+ <file
+   path="simulation/submodules/src/auk_vit_par_top_atl.ocp"
+   type="OTHER"
+   library="viterbi_ii_0" />
+ <file
+   path="simulation/submodules/src/viterbi_viterbi_ii_0_ini.hex"
+   type="HEX"
+   library="viterbi_ii_0" />
+ <file
+   path="simulation/submodules/viterbi_viterbi_ii_0.v"
+   type="VERILOG"
+   library="viterbi_ii_0" />
+ <file
+   path="simulation/submodules/c_model/Example/Example_Command.txt"
+   type="OTHER"
+   library="viterbi_ii_0" />
+ <file
+   path="simulation/submodules/c_model/Example/a_rcvsym.txt"
+   type="OTHER"
+   library="viterbi_ii_0" />
+ <file
+   path="simulation/submodules/c_model/Example/block_period_stim.txt"
+   type="OTHER"
+   library="viterbi_ii_0" />
+ <file
+   path="simulation/submodules/c_model/Example/decoded_expected.txt"
+   type="OTHER"
+   library="viterbi_ii_0" />
+ <file
+   path="simulation/submodules/c_model/Makefile"
+   type="OTHER"
+   library="viterbi_ii_0" />
+ <file
+   path="simulation/submodules/c_model/Readme.txt"
+   type="OTHER"
+   library="viterbi_ii_0" />
+ <file
+   path="simulation/submodules/c_model/c_wrapper.c"
+   type="OTHER"
+   library="viterbi_ii_0" />
+ <file
+   path="simulation/submodules/c_model/c_wrapper_args.c"
+   type="OTHER"
+   library="viterbi_ii_0" />
+ <file
+   path="simulation/submodules/c_model/compile.sh"
+   type="OTHER"
+   library="viterbi_ii_0" />
+ <file
+   path="simulation/submodules/c_model/compile_mex.sh"
+   type="OTHER"
+   library="viterbi_ii_0" />
+ <file
+   path="simulation/submodules/c_model/decoded_c.txt"
+   type="OTHER"
+   library="viterbi_ii_0" />
+ <file
+   path="simulation/submodules/c_model/mex_vit.cpp"
+   type="OTHER"
+   library="viterbi_ii_0" />
+ <file
+   path="simulation/submodules/c_model/mex_vit_direct.cpp"
+   type="OTHER"
+   library="viterbi_ii_0" />
+ <file
+   path="simulation/submodules/c_model/mex_vit_direct_out.cpp"
+   type="OTHER"
+   library="viterbi_ii_0" />
+ <file
+   path="simulation/submodules/c_model/varchmodel.c"
+   type="OTHER"
+   library="viterbi_ii_0" />
+ <file
+   path="simulation/submodules/c_model/varchmodel.h"
+   type="OTHER"
+   library="viterbi_ii_0" />
+ <file
+   path="simulation/submodules/c_model/vcommonlib.c"
+   type="OTHER"
+   library="viterbi_ii_0" />
+ <file
+   path="simulation/submodules/c_model/vcommonlib.h"
+   type="OTHER"
+   library="viterbi_ii_0" />
+ <file
+   path="simulation/submodules/c_model/vdef.h"
+   type="OTHER"
+   library="viterbi_ii_0" />
+ <file
+   path="simulation/submodules/c_model/venginelib.c"
+   type="OTHER"
+   library="viterbi_ii_0" />
+ <file
+   path="simulation/submodules/c_model/venginelib.h"
+   type="OTHER"
+   library="viterbi_ii_0" />
+ <file path="simulation/viterbi.v" type="VERILOG" />
+ <topLevel name="viterbi" />
+ <deviceFamily name="cyclonev" />
+</simPackage>

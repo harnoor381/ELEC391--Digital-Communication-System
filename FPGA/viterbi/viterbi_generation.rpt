@@ -1,0 +1,68 @@
+Info: Starting: Create simulation model
+Info: qsys-generate "C:\Users\hargs\OneDrive - UBC\Desktop\UBC\Electrical Engineering\3rd year\ELEC 391\Digital Communication System\viterbi.qsys" --simulation=VERILOG --allow-mixed-language-simulation --output-directory="C:\Users\hargs\OneDrive - UBC\Desktop\UBC\Electrical Engineering\3rd year\ELEC 391\Digital Communication System\viterbi\simulation" --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading Digital Communication System/viterbi.qsys
+Progress: Reading input file
+Progress: Adding viterbi_ii_0 [altera_viterbi_ii 18.1]
+Progress: Parameterizing module viterbi_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: viterbi.viterbi_ii_0: Input data list:   {ber_clear[0:0]} {eras_sym[3:0]   } {rr[3:0]   }
+Info: viterbi.viterbi_ii_0: Output data list: {numerr[7:0]   } {normalizations[7:0]   } {decbit[0:0]   }
+Info: viterbi: Generating viterbi "viterbi" for SIM_VERILOG
+Info: viterbi_ii_0: "viterbi" instantiated altera_viterbi_ii "viterbi_ii_0"
+Info: viterbi: Done "viterbi" with 2 modules, 56 files
+Info: qsys-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd="C:\Users\hargs\OneDrive - UBC\Desktop\UBC\Electrical Engineering\3rd year\ELEC 391\Digital Communication System\viterbi\viterbi.spd" --output-directory="C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/viterbi/simulation/" --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=C:\Users\hargs\OneDrive - UBC\Desktop\UBC\Electrical Engineering\3rd year\ELEC 391\Digital Communication System\viterbi\viterbi.spd --output-directory=C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/viterbi/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/viterbi/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Skipping VCS script generation since VHDL file $QUARTUS_INSTALL_DIR/eda/sim_lib/altera_syn_attributes.vhd is required for simulation
+Info: Generating the following file(s) for VCSMX simulator in C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/viterbi/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/viterbi/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	1 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/viterbi/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/viterbi/simulation/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create Modelsim Project.
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate "C:\Users\hargs\OneDrive - UBC\Desktop\UBC\Electrical Engineering\3rd year\ELEC 391\Digital Communication System\viterbi.qsys" --block-symbol-file --output-directory="C:\Users\hargs\OneDrive - UBC\Desktop\UBC\Electrical Engineering\3rd year\ELEC 391\Digital Communication System\viterbi" --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading Digital Communication System/viterbi.qsys
+Progress: Reading input file
+Progress: Adding viterbi_ii_0 [altera_viterbi_ii 18.1]
+Progress: Parameterizing module viterbi_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: viterbi.viterbi_ii_0: Input data list:   {ber_clear[0:0]} {eras_sym[3:0]   } {rr[3:0]   }
+Info: viterbi.viterbi_ii_0: Output data list: {numerr[7:0]   } {normalizations[7:0]   } {decbit[0:0]   }
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate "C:\Users\hargs\OneDrive - UBC\Desktop\UBC\Electrical Engineering\3rd year\ELEC 391\Digital Communication System\viterbi.qsys" --synthesis=VERILOG --output-directory="C:\Users\hargs\OneDrive - UBC\Desktop\UBC\Electrical Engineering\3rd year\ELEC 391\Digital Communication System\viterbi\synthesis" --family="Cyclone V" --part=5CSEMA5F31C6
+Progress: Loading Digital Communication System/viterbi.qsys
+Progress: Reading input file
+Progress: Adding viterbi_ii_0 [altera_viterbi_ii 18.1]
+Progress: Parameterizing module viterbi_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: viterbi.viterbi_ii_0: Input data list:   {ber_clear[0:0]} {eras_sym[3:0]   } {rr[3:0]   }
+Info: viterbi.viterbi_ii_0: Output data list: {numerr[7:0]   } {normalizations[7:0]   } {decbit[0:0]   }
+Info: viterbi: Generating viterbi "viterbi" for QUARTUS_SYNTH
+Info: viterbi_ii_0: "viterbi" instantiated altera_viterbi_ii "viterbi_ii_0"
+Info: viterbi: Done "viterbi" with 2 modules, 24 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
