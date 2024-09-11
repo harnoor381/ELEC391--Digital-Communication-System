@@ -19,4 +19,6 @@ The system was developed and tested using Simulink and Modelsim, and was prototy
 ![Simulink Model](./Simulink_overview.png)
 
 ## FPGA Overview
+![System block diagram](./FPGA_overview.png)
 
+Detailed design decisions are included in the project report and presentation. In depth explanations of each FPGA module and testing are also provided.
