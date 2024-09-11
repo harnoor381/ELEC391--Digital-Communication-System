@@ -1,0 +1,569 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/FPGA_audio_starter_part2
+vAWGN_21dB_LUT
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1718851353
+!i10b 1
+!s100 N;cQ6S:mf6a0WmOQTTRQh0
+IUT6X@O?0C28GL>jZECJKP2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 !s105 mod_demod_sv_unit
+S1
+Z4 dC:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System
+Z5 w1718851285
+Z6 8C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/mod_demod.sv
+Z7 FC:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/mod_demod.sv
+L0 698
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1718851353.000000
+Z10 !s107 C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/mod_demod.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/mod_demod.sv|
+!i113 1
+Z12 o-work work -sv
+Z13 tCvgOpt 0
+n@a@w@g@n_21d@b_@l@u@t
+vAWGN_9dB_LUT
+R0
+R1
+!i10b 1
+!s100 U;zOD]_>Y`YjeG_]^U:l41
+I5nlCYeIOUOOcT:3@G7J0d1
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 609
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@a@w@g@n_9d@b_@l@u@t
+vbuffer
+R0
+Z14 !s110 1718847521
+!i10b 1
+!s100 jF_4Vc<oeXY_k7h^MDz>J1
+I4TZ9kY66MP0T^;g`TcN>22
+R2
+Z15 !s105 part1_sv_unit
+S1
+R4
+Z16 w1718826024
+Z17 8C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/part1.sv
+Z18 FC:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/part1.sv
+L0 380
+R8
+r1
+!s85 0
+31
+Z19 !s108 1718847521.000000
+Z20 !s107 C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/part1.sv|
+Z21 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/part1.sv|
+!i113 1
+R12
+R13
+vchannel
+R0
+R1
+!i10b 1
+!s100 TBmO>VYW`44WC0azK>^RY0
+IdZ;Qz>fNi2dkZfJC8VYV73
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 466
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vclock_divider_10kHz
+R0
+R14
+!i10b 1
+!s100 R_TGKSgNCeh<T9VRWaOif0
+Inm0=hej?XifI]@WLgDWCR1
+R2
+R15
+S1
+R4
+R16
+R17
+R18
+L0 483
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+R12
+R13
+nclock_divider_10k@hz
+vcon_enc
+R0
+R14
+!i10b 1
+!s100 ?VB@LHWfoQIS4QWVo<[Ol3
+I[giLQng8`S71k4OXa`C990
+R2
+R15
+S1
+R4
+R16
+R17
+R18
+L0 249
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+R12
+R13
+vdownsampler
+R0
+R14
+!i10b 1
+!s100 GgBjFSemaNA@Q`_38Hj7o3
+IPQP=Nc=0JL:YgHY_6Xg4f0
+R2
+R15
+S1
+R4
+R16
+R17
+R18
+L0 224
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+R12
+R13
+vdownsampler_b
+R0
+R1
+!i10b 1
+!s100 5mZNoI5[e9@H3K9^8Z]fA1
+IEdSKL_=BD]=8KEof4k:P`2
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 568
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vencoder_tb
+R0
+!s110 1718836107
+!i10b 1
+!s100 ]aSdWMO?Im?cno[YDXH[Q2
+IQbd_Pk[9Qj8oe=j5W0T2d0
+R2
+!s105 encoder_tb_sv_unit
+S1
+R4
+w1718833126
+8C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/encoder_tb.sv
+FC:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/encoder_tb.sv
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1718836107.000000
+!s107 C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/encoder_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/encoder_tb.sv|
+!i113 1
+R12
+R13
+vmod_demod
+R0
+R1
+!i10b 1
+!s100 joYdP>1Dz:cJl@MhXlBf_1
+IDd:L;Y`ANjPeHD7SYQ?Uk2
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vmod_demod_tb
+R0
+R1
+!i10b 1
+!s100 :>X@ooPlUAOPDm^Y[<Y2A1
+IMOz9MW?WColOhT]BRXQ]A1
+R2
+!s105 mod_demod_tb_sv_unit
+S1
+R4
+w1718851042
+8C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/mod_demod_tb.sv
+FC:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/mod_demod_tb.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/mod_demod_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/mod_demod_tb.sv|
+!i113 1
+R12
+R13
+vmultiply
+R0
+R1
+!i10b 1
+!s100 =c0m76>ZSZcX>FW7BbJP;0
+ISJmA[ES`Q;hP90:zeH<Zz2
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 591
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vpart1
+R0
+R14
+!i10b 1
+!s100 9]8T[fe:Yke^7Nl;_z]F`0
+ILY8;:kOJIKbfQcJ41XYai1
+R2
+R15
+S1
+R4
+R16
+R17
+R18
+L0 1
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+R12
+R13
+vpart1_tb
+R0
+R14
+!i10b 1
+!s100 XCW:Ul:4G`hhB^HJHC3ac1
+I@NiZzGgJaC8bIFneNh9Jn0
+R2
+!s105 part1_tb_sv_unit
+S1
+R4
+w1718846552
+8C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/part1_tb.sv
+FC:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/part1_tb.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/part1_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/part1_tb.sv|
+!i113 1
+R12
+R13
+vQPSK_demod
+R0
+R1
+!i10b 1
+!s100 kFZ2HRQ3m_;Amz349Q^QZ3
+IXTOW[Yk[UmV8@l2en6Y:S3
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 105
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@q@p@s@k_demod
+vQPSK_demod_tb
+R0
+!s110 1718840139
+!i10b 1
+!s100 VZj9TBK@HJZ:XS48^RlUg1
+Ie73bF3DUQDfh8_Vdf?hhD0
+R2
+!s105 QPSK_demod_tb_sv_unit
+S1
+R4
+w1718839953
+8C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/QPSK_demod_tb.sv
+FC:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/QPSK_demod_tb.sv
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1718840139.000000
+!s107 C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/QPSK_demod_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/QPSK_demod_tb.sv|
+!i113 1
+R12
+R13
+n@q@p@s@k_demod_tb
+vQPSK_mod
+R0
+R1
+!i10b 1
+!s100 h1aY?gkdLMQYaWG60`Q^^1
+In_^zilJ@1PDIQ]E_YzQoP3
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 52
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@q@p@s@k_mod
+vQPSK_mod_tb
+R0
+!s110 1718838223
+!i10b 1
+!s100 5K:aYPT78VLeB[2D681Y70
+I8]JFQ_Z4KHa6a6Iz:Vk2d2
+R2
+!s105 QPSK_mod_tb_sv_unit
+S1
+R4
+w1718833163
+8C:\Users\hargs\OneDrive - UBC\Desktop\UBC\Electrical Engineering\3rd year\ELEC 391\Digital Communication System\QPSK_mod_tb.sv
+FC:\Users\hargs\OneDrive - UBC\Desktop\UBC\Electrical Engineering\3rd year\ELEC 391\Digital Communication System\QPSK_mod_tb.sv
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1718838223.000000
+!s107 C:\Users\hargs\OneDrive - UBC\Desktop\UBC\Electrical Engineering\3rd year\ELEC 391\Digital Communication System\QPSK_mod_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:\Users\hargs\OneDrive - UBC\Desktop\UBC\Electrical Engineering\3rd year\ELEC 391\Digital Communication System\QPSK_mod_tb.sv|
+!i113 1
+R12
+R13
+n@q@p@s@k_mod_tb
+vrandom_7bit
+R0
+R1
+!i10b 1
+!s100 ]SbkPU6lM6b3n<R9Q2_0z3
+I1:F20jBabTGG_bEIagza:0
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 543
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vreceiver
+R0
+R1
+!i10b 1
+!s100 :hiUgjVCWCEXE4zXbonUn3
+IT>zAW>:CGQIHWQQ]z<RDd0
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 308
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vtransmitter7
+R0
+R1
+!i10b 1
+!s100 Q8600DAdJBY<gK`SC`KG51
+Im6]ZI:g2RHLhX72[n?B0@2
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 131
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vviterbi
+R0
+R14
+!i10b 1
+!s100 cB[TkhOWP>T1o0abGi7^N1
+IW:K@a:gZFFY>Fm6Ib3@Vg2
+R2
+R15
+S1
+R4
+R16
+R17
+R18
+L0 409
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+R12
+R13
+vviterbi_tb
+R0
+!s110 1718844200
+!i10b 1
+!s100 FdRSRQ`6Sd?59X3TEK;U83
+IYJgoJUZP3Ok6M8@V?EhA`0
+R2
+!s105 decoder_tb_sv_unit
+S1
+R4
+w1718844192
+8C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/decoder_tb.sv
+FC:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/decoder_tb.sv
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1718844200.000000
+!s107 C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/decoder_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/decoder_tb.sv|
+!i113 1
+R12
+R13
