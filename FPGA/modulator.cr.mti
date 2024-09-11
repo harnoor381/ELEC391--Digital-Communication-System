@@ -1,0 +1,15 @@
+{C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/QPSK_mod_tb.sv} {1 {vlog -work work -sv -stats=none {C:\Users\hargs\OneDrive - UBC\Desktop\UBC\Electrical Engineering\3rd year\ELEC 391\Digital Communication System\QPSK_mod_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module QPSK_mod_tb
+
+Top level modules:
+	QPSK_mod_tb
+
+} {} {}} {C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/QPSK_mod.v} {1 {vlog -work work -stats=none {C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/QPSK_mod.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module QPSK_mod
+
+Top level modules:
+	QPSK_mod
+
+} {} {}}

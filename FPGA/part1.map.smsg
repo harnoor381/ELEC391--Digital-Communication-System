@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at transmitter7.v(160): always construct contains both blocking and non-blocking assignments File: C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/transmitter7.v Line: 160
+Warning (10268): Verilog HDL information at receiver.v(197): always construct contains both blocking and non-blocking assignments File: C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Demo2/FPGA/Digital Communication System/receiver.v Line: 197

@@ -1,0 +1,22 @@
+{C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/part1.sv} {1 {vlog -work work -sv -stats=none {C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/part1.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module part1
+-- Compiling module downsampler
+-- Compiling module con_enc
+-- Compiling module QPSK_mod
+-- Compiling module QPSK_demod
+-- Compiling module buffer
+-- Compiling module viterbi
+-- Compiling module clock_divider_10kHz
+
+Top level modules:
+	part1
+
+} {} {}} {C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/part1_tb.sv} {1 {vlog -work work -sv -stats=none {C:/Users/hargs/OneDrive - UBC/Desktop/UBC/Electrical Engineering/3rd year/ELEC 391/Digital Communication System/part1_tb.sv}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module part1_tb
+
+Top level modules:
+	part1_tb
+
+} {} {}}
