@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pinplan
+ variation_name="viterbi_ii_0"
+ megafunction_name="ALTERA_VITERBI_II"
+ intended_family="Cyclone V"
+ specifies="all_ports">
+ <global>
+  <pin name="clk" direction="input" scope="external" />
+  <pin name="reset" direction="input" scope="external" />
+  <pin name="sink_val" direction="input" scope="external" />
+  <pin name="sink_rdy" direction="output" scope="external" />
+  <pin name="ber_clear" direction="input" scope="external" />
+  <pin name="eras_sym[3..0]" direction="input" scope="external" />
+  <pin name="rr[3..0]" direction="input" scope="external" />
+  <pin name="source_val" direction="output" scope="external" />
+  <pin name="source_rdy" direction="input" scope="external" />
+  <pin name="numerr[7..0]" direction="output" scope="external" />
+  <pin name="normalizations[7..0]" direction="output" scope="external" />
+  <pin name="decbit" direction="output" scope="external" />
+ </global>
+</pinplan>

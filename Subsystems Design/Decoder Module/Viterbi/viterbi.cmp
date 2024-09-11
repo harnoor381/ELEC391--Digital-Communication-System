@@ -1,0 +1,17 @@
+	component viterbi is
+		port (
+			clk            : in  std_logic                    := 'X';             -- clk
+			sink_val       : in  std_logic                    := 'X';             -- valid
+			sink_rdy       : out std_logic;                                       -- ready
+			ber_clear      : in  std_logic                    := 'X';             -- ber_clear
+			eras_sym       : in  std_logic_vector(3 downto 0) := (others => 'X'); -- eras_sym
+			rr             : in  std_logic_vector(3 downto 0) := (others => 'X'); -- rr
+			source_val     : out std_logic;                                       -- valid
+			source_rdy     : in  std_logic                    := 'X';             -- ready
+			numerr         : out std_logic_vector(7 downto 0);                    -- numerr
+			normalizations : out std_logic_vector(7 downto 0);                    -- normalizations
+			decbit         : out std_logic;                                       -- decbit
+			reset          : in  std_logic                    := 'X'              -- reset
+		);
+	end component viterbi;
+

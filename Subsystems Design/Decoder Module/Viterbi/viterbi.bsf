@@ -1,0 +1,145 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2018  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 320 248)
+	(text "viterbi" (rect 143 -1 166 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 232 20 244)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "clk" (rect 0 0 10 12)(font "Arial" (font_size 8)))
+		(text "clk" (rect 4 61 22 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 80 72)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "sink_val" (rect 0 0 33 12)(font "Arial" (font_size 8)))
+		(text "sink_val" (rect 4 101 52 112)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 80 112)(line_width 1))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "ber_clear" (rect 0 0 37 12)(font "Arial" (font_size 8)))
+		(text "ber_clear" (rect 4 133 58 144)(font "Arial" (font_size 8)))
+		(line (pt 0 144)(pt 80 144)(line_width 1))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "eras_sym[3..0]" (rect 0 0 62 12)(font "Arial" (font_size 8)))
+		(text "eras_sym[3..0]" (rect 4 149 88 160)(font "Arial" (font_size 8)))
+		(line (pt 0 160)(pt 80 160)(line_width 3))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "rr[3..0]" (rect 0 0 27 12)(font "Arial" (font_size 8)))
+		(text "rr[3..0]" (rect 4 165 52 176)(font "Arial" (font_size 8)))
+		(line (pt 0 176)(pt 80 176)(line_width 3))
+	)
+	(port
+		(pt 320 88)
+		(input)
+		(text "source_rdy" (rect 0 0 47 12)(font "Arial" (font_size 8)))
+		(text "source_rdy" (rect 261 77 321 88)(font "Arial" (font_size 8)))
+		(line (pt 320 88)(pt 208 88)(line_width 1))
+	)
+	(port
+		(pt 0 216)
+		(input)
+		(text "reset" (rect 0 0 20 12)(font "Arial" (font_size 8)))
+		(text "reset" (rect 4 205 34 216)(font "Arial" (font_size 8)))
+		(line (pt 0 216)(pt 80 216)(line_width 1))
+	)
+	(port
+		(pt 0 128)
+		(output)
+		(text "sink_rdy" (rect 0 0 35 12)(font "Arial" (font_size 8)))
+		(text "sink_rdy" (rect 4 117 52 128)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 80 128)(line_width 1))
+	)
+	(port
+		(pt 320 72)
+		(output)
+		(text "source_val" (rect 0 0 44 12)(font "Arial" (font_size 8)))
+		(text "source_val" (rect 263 61 323 72)(font "Arial" (font_size 8)))
+		(line (pt 320 72)(pt 208 72)(line_width 1))
+	)
+	(port
+		(pt 320 104)
+		(output)
+		(text "numerr[7..0]" (rect 0 0 49 12)(font "Arial" (font_size 8)))
+		(text "numerr[7..0]" (rect 260 93 332 104)(font "Arial" (font_size 8)))
+		(line (pt 320 104)(pt 208 104)(line_width 3))
+	)
+	(port
+		(pt 320 120)
+		(output)
+		(text "normalizations[7..0]" (rect 0 0 74 12)(font "Arial" (font_size 8)))
+		(text "normalizations[7..0]" (rect 225 109 345 120)(font "Arial" (font_size 8)))
+		(line (pt 320 120)(pt 208 120)(line_width 3))
+	)
+	(port
+		(pt 320 136)
+		(output)
+		(text "decbit" (rect 0 0 22 12)(font "Arial" (font_size 8)))
+		(text "decbit" (rect 289 125 325 136)(font "Arial" (font_size 8)))
+		(line (pt 320 136)(pt 208 136)(line_width 1))
+	)
+	(drawing
+		(text "clk" (rect 65 43 148 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 85 67 188 144)(font "Arial" (color 0 0 0)))
+		(text "in" (rect 71 83 154 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "valid" (rect 85 107 200 224)(font "Arial" (color 0 0 0)))
+		(text "ready" (rect 85 123 200 256)(font "Arial" (color 0 0 0)))
+		(text "ber_clear" (rect 85 139 224 288)(font "Arial" (color 0 0 0)))
+		(text "eras_sym" (rect 85 155 218 320)(font "Arial" (color 0 0 0)))
+		(text "rr" (rect 85 171 182 352)(font "Arial" (color 0 0 0)))
+		(text "out" (rect 209 43 436 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "valid" (rect 185 67 400 144)(font "Arial" (color 0 0 0)))
+		(text "ready" (rect 180 83 390 176)(font "Arial" (color 0 0 0)))
+		(text "numerr" (rect 174 99 384 208)(font "Arial" (color 0 0 0)))
+		(text "normalizations" (rect 145 115 374 240)(font "Arial" (color 0 0 0)))
+		(text "decbit" (rect 180 131 396 272)(font "Arial" (color 0 0 0)))
+		(text "rst" (rect 65 187 148 387)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset" (rect 85 211 200 432)(font "Arial" (color 0 0 0)))
+		(text " viterbi " (rect 290 232 634 474)(font "Arial" ))
+		(line (pt 80 32)(pt 208 32)(line_width 1))
+		(line (pt 208 32)(pt 208 232)(line_width 1))
+		(line (pt 80 232)(pt 208 232)(line_width 1))
+		(line (pt 80 32)(pt 80 232)(line_width 1))
+		(line (pt 81 52)(pt 81 76)(line_width 1))
+		(line (pt 82 52)(pt 82 76)(line_width 1))
+		(line (pt 81 92)(pt 81 180)(line_width 1))
+		(line (pt 82 92)(pt 82 180)(line_width 1))
+		(line (pt 207 52)(pt 207 140)(line_width 1))
+		(line (pt 206 52)(pt 206 140)(line_width 1))
+		(line (pt 81 196)(pt 81 220)(line_width 1))
+		(line (pt 82 196)(pt 82 220)(line_width 1))
+		(line (pt 0 0)(pt 320 0)(line_width 1))
+		(line (pt 320 0)(pt 320 248)(line_width 1))
+		(line (pt 0 248)(pt 320 248)(line_width 1))
+		(line (pt 0 0)(pt 0 248)(line_width 1))
+	)
+)
