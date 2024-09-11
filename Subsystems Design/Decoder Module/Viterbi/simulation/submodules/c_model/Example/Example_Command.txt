@@ -1,0 +1,10 @@
+In Linux run the compile.sh and then run this command (both from the parent directory):
+./c_wrapper_args 5 5_3_4_3_3 4_2_3_2_2 4_23_27_31 5_7 11_13_15 5_7 5_7 3 30 0 parallel none   Example/a_rcvsym.txt Example/block_period_stim.txt Example/decoded_c.txt
+
+This is equivalent to running the following mex functions:
+
+vit_ii_mex(5, [5 3 4 3 3], [4 2 3 2 2], {[4 23 27 31], [5 7], [11 13 15], [5 7] [5 7]}, 3, 30, 0, 'parallel', 'none', 'Example/a_rcvsym.txt', 'Example/block_period_stim.txt', 'Example/decoded_c.txt')
+x = vit_ii_mex_direct_out(5, [5 3 4 3 3], [4 2 3 2 2], {[4 23 27 31], [5 7], [11 13 15], [5 7] [5 7]}, 3, 30, 0, 'parallel', 'none', 'Example/a_rcvsym.txt', 'Example/block_period_stim.txt')
+x = vit_ii_mex_direct(5, [5 3 4 3 3], [4 2 3 2 2], {[4 23 27 31], [5 7], [11 13 15], [5 7] [5 7]}, 3, 30, 0, 'parallel', 'none', 
+{{'3333' '3444' '3344' … },{'33' '34' '33' …}, … , {'333', '334', '334'}},
+[0  1  2  3  4  0  1  2  3  4  0  1  2  3  4;0  0  0  0  0  0  0  0  0  0  0  0  0  0  0;30 18 24 18 18 30 18 24 18 18 30 18 24 18 18;10  3  4  1  0 14  3  5  3  3  1  1  1  0  1;1  1  1  1  1  1  1  1  1  1  1  1  1  1  1;90 90 90 90 90 90 90 90 90 90 90 90 90 90 90]
